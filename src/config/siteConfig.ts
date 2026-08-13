@@ -1,6 +1,5 @@
 // site config
-export const utm_source = 'derek-portfolio'
-
+export const utm_source = 'frank-portfolio'
 
 // navigation config
 type NavItemType = {
@@ -11,37 +10,29 @@ type NavItemType = {
 export const footerItems: Array<NavItemType> = [
   {
     name: 'Home',
-    href: '/'
+    href: '/',
   },
   {
     name: 'About',
-    href: '/about'
+    href: '/about',
   },
   {
     name: 'Projects',
-    href: '/projects'
+    href: '/projects',
   },
-  {
-    name: 'Blogs',
-    href: '/blogs'
-  }
 ]
 
 export const navItems: Array<NavItemType> = [
   {
     name: 'Home',
-    href: '/'
+    href: '/',
   },
   {
     name: 'About',
-    href: '/about'
+    href: '/about',
   },
   {
     name: 'Projects',
-    href: '/projects'
+    href: '/projects',
   },
-  {
-    name: 'Blogs',
-    href: '/blogs'
-  }
 ]

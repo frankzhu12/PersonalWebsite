@@ -11,7 +11,7 @@ import SocialLinks from '@/components/about/SocialLinks'
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'xzz is a Grade 11 student at Shanghai Soong Ching Ling School.',
+    'Frank Zhu is a Grade 11 student at Shanghai Soong Ching Ling School who enjoys programming and badminton.',
 }
 
 export default function About() {
