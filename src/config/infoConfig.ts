@@ -3,19 +3,19 @@ export * from './education'
 export * from './career'
 
 // personal info
-export const name = 'Derek Hu'
-export const headline = 'Teacher at Shanghai Soong Ching Ling School.'
+export const name = 'xzz'
+export const headline = 'Grade 11 Student at Shanghai Soong Ching Ling School.'
 export const introduction =
-  "Coucou Les Amis! My name is Derek Hu. I'm from Hubei and an alumnus of BUPT, UChicago, and Tsinghua. I’ve been teaching Computer Science at SCLS since 2020."
-export const email = 'tong.hu@scls-sh.org'
-export const githubUsername = 'derekhut'
+  "Hi! I'm xzz, a Grade 11 student at Shanghai Soong Ching Ling School. I'm passionate about learning and building projects through the AI Camp program."
+export const email = 'your.email@example.com'
+export const githubUsername = 'xzz'
 
 // about page
-export const aboutMeHeadline = 'Who Are You and Why Should I Care?'
+export const aboutMeHeadline = 'About Me'
 export const aboutParagraphs = [
-  "Coucou Les Amis! My name is Derek Hu. I'm from Hubei and an alumnus of BUPT, UChicago, and Tsinghua. I’ve been teaching Computer Science at SCLS since 2020.",
-  'Currently I am working on a new course called AI Camp, an innovative course where high school students create real-world products and startups while exploring the frontiers of AI.',
-  "I started this blog to share the insights I learn every day. Most blogs focus on education in Artificial Intelligence and general computer science, while others share the life lessons I've learned.",
+  "Hi! I'm xzz, a Grade 11 student at Shanghai Soong Ching Ling School.",
+  'I enjoy exploring technology, working on creative projects, and learning new skills through hands-on experiences like AI Camp.',
+  'This portfolio showcases my projects, activities, and the things I am learning along the way.',
 ]
 
 // blog
