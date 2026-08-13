@@ -3,25 +3,24 @@ export * from './education'
 export * from './career'
 
 // personal info
-export const name = 'xzz'
-export const headline = 'Grade 11 Student at Shanghai Soong Ching Ling School.'
+export const name = 'Frank Zhu'
+export const headline = 'Grade 11 student at Shanghai Soong Ching Ling School.'
 export const introduction =
-  "Hi! I'm xzz, a Grade 11 student at Shanghai Soong Ching Ling School. I'm passionate about learning and building projects through the AI Camp program."
-export const email = 'your.email@example.com'
-export const githubUsername = 'xzz'
+  'I enjoy programming and playing badminton. Currently preparing for the TOEFL exam and learning through AI Camp.'
+export const email = '202860133@stu.scls-sh.org'
+export const githubUsername = 'frankzhu12'
 
 // about page
 export const aboutMeHeadline = 'About Me'
 export const aboutParagraphs = [
-  "Hi! I'm xzz, a Grade 11 student at Shanghai Soong Ching Ling School.",
-  'I enjoy exploring technology, working on creative projects, and learning new skills through hands-on experiences like AI Camp.',
-  'This portfolio showcases my projects, activities, and the things I am learning along the way.',
+  "Hi, I'm Frank — a Grade 11 student at Shanghai Soong Ching Ling School.",
+  "I'm into programming, badminton, and (maybe too much) Brawl Stars. No big achievements yet — just a student learning step by step.",
+  "Right now I'm focused on TOEFL prep, AI Camp with Mr. Derek, and the BiteByte club at school. I hope to join physics competitions in the future.",
 ]
 
 // blog
-export const blogHeadLine = "What I've thinking about."
-export const blogIntro =
-  "I've written something about AI, programming and life."
+export const blogHeadLine = 'Writing'
+export const blogIntro = 'Notes and reflections — coming soon.'
 
 // social links
 export type SocialLinkType = {
@@ -31,41 +30,16 @@ export type SocialLinkType = {
   href: string
 }
 
-export const socialLinks: Array<SocialLinkType> = [
-  {
-    name: 'Tiktok',
-    icon: 'tiktok',
-    href: 'https://www.tiktok.com/@harvard?lang=en',
-  },
-  {
-    name: 'Bilibili',
-    icon: 'bilibili',
-    href: 'https://space.bilibili.com/349721082',
-  },
-]
+export const socialLinks: Array<SocialLinkType> = []
 
 // https://simpleicons.org/
 export const techIcons = [
-  'typescript',
+  'python',
   'javascript',
-  'supabase',
-  'cloudflare',
-  'java',
-  'oracle',
-  'mysql',
-  'react',
-  'nodedotjs',
-  'nextdotjs',
-  'prisma',
-  'postgresql',
-  'nginx',
-  'vercel',
-  'docker',
+  'html5',
+  'css3',
   'git',
   'github',
-  'visualstudiocode',
-  'androidstudio',
-  'ios',
-  'apple',
-  'wechat',
+  'react',
+  'nextdotjs',
 ]

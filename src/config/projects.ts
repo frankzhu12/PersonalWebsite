@@ -15,81 +15,56 @@ export type ActivityItemType = {
 }
 
 // Awards
-export const awardsHeadLine = "Awards & Honors"
-export const awardsIntro = "Recognition for academic and professional achievements."
+export const awardsHeadLine = 'Awards & Honors'
+export const awardsIntro = 'Recognition for academic achievements.'
 
-export const awards: Array<ActivityItemType> = [
-  {
-    name: 'Outstanding Teacher Award',
-    description: '',
-    date: '2024',
-    location: 'SCLS, Shanghai',
-  },
-  {
-    name: 'Zhui Ying Award',
-    description: '',
-    date: '2023',
-    location: 'Qingpu, Shanghai',
-  },
-]
+export const awards: Array<ActivityItemType> = []
 
-// Research & Projects
-export const projectHeadLine = "Research & Projects"
-export const projectIntro = "Academic research and technical projects I've worked on."
+// Projects
+export const projectHeadLine = 'Projects'
+export const projectIntro = 'Things I am building and learning through AI Camp.'
 
 export const projects: Array<ProjectItemType> = [
   {
-    name: 'Student Final Project Portfolio',
-    description: 'Static website portfolio',
-    link: { href: 'scls-cs.com', label: 'GitHub Cards' },
-    tags: ['Website', 'Next.js', 'TailwindCSS', 'DaisyUI', 'Portfolio']
-  },
-  {
-    name: 'Seeking DNA',
-    description: '2022 SCLS Hackathon',
-    link: { href: 'https://scls-cs.gitbook.io/scls-apcs-lab/lab5-dna', label: 'Hackathon' },
-    tags: ['Hackathon', 'Java']
-  },
-  {
-    name: 'Texas Holdem Poker Judge',
-    description: '2024 SCLS Hackathon',
-    link: { href: 'https://onecompiler.com/challenges/42yf4n5yn/scls-hackathon', label: 'Hackathon' },
-    tags: ['Hackathon']
-  },
-  {
-    name: 'AI Camp Course Development',
-    description: 'Developed a comprehensive AI curriculum for high school students, incorporating real-world projects and startup concepts.',
-    link: { href: 'https://scls-cs.gitbook.io/ai-camp', label: 'View Course' },
-    tags: ['Education', 'AI']
+    name: 'Personal Portfolio',
+    description:
+      'This website — my first step into web development, built during AI Camp with Next.js and Tailwind CSS.',
+    link: {
+      href: 'https://github.com/frankzhu12/PersonalWebsite',
+      label: 'View on GitHub',
+    },
+    tags: ['Website', 'Next.js', 'Tailwind CSS'],
   },
 ]
 
-// Hobbies & Volunteer
-export const activitiesHeadLine = "Hobbies & Volunteer"
-export const activitiesIntro = "Personal interests and community contributions."
+// Activities & hobbies
+export const activitiesHeadLine = 'Activities & Hobbies'
+export const activitiesIntro = 'What I spend my time on outside of class.'
 
 export const activities: Array<ActivityItemType> = [
   {
-    name: 'Python Workshop',
+    name: 'AI Camp',
     description:
-      'Teaching basic Python programming concepts to beginners. Covering variables, control flow, and functions.',
-    date: '2024-02-24',
-    location: 'Shanghai',
-    link: 'https://example.com/python-workshop',
+      'Learning web development and AI tools with Mr. Derek at Shanghai Soong Ching Ling School.',
+    date: '2026',
+    location: 'SCLS, Shanghai',
   },
   {
-    name: 'AI Ethics Discussion',
-    description:
-      'A group discussion about the ethical implications of AI development and its impact on society.',
-    date: '2024-03-01',
-    location: 'Shanghai',
-    link: 'https://example.com/ai-ethics',
+    name: 'BiteByte Club',
+    description: 'School tech club exploring programming and computer science.',
+    date: '2026',
+    location: 'SCLS, Shanghai',
   },
   {
-    name: 'Code Review Session',
-    description:
-      'Helping students improve their coding skills through peer code review and best practices sharing.',
-    date: '2024-03-15',
+    name: 'Badminton',
+    description: 'Playing badminton to stay active and unwind after studying.',
+    date: 'Ongoing',
     location: 'Shanghai',
+  },
+  {
+    name: 'Brawl Stars',
+    description: 'A guilty pleasure — probably playing more than I should.',
+    date: 'Ongoing',
+    location: 'Mobile',
   },
 ]

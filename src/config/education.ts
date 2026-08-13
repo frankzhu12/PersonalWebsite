@@ -13,7 +13,7 @@ export const educationList: Array<EducationItemType> = [
     school: 'Shanghai Soong Ching Ling School',
     major: 'Grade 11',
     logo: 'college',
-    start: '2023',
+    start: '2025',
     end: 'Present',
   },
 ]
